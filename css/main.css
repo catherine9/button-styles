@@ -7,21 +7,66 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-.btn-primary {
+
+div {
+  padding: .5em;
+  text-align: center;
+}
+
+.btn {
   text-decoration: none;
-  background-color: #333;
-  color: #fff;
+  color: #ccc;
+  font-size: 1.125rem;
+  display: inline-block;
+}
+
+.btn:hover {
+  text-decoration: none;
   border-radius: 8px;
-  width: 3px;
-  padding: .4em;
+  color: #f33;
+  background-color: #000;
+}
+
+.btn-small {
   font-size: 1.125rem;
 }
 
-.btn-subtle small {
-  text-decoration: none;
+.btn-big {
+  font-size: 1.125rem;
+}
+
+.btn-subtle {
   background-color: #ccc;
   color: #fff;
+}
+
+.btn-ghost {
+  border-color: #000;
+  color: #000;
+}
+
+.btn-warning {
+  background-color: #f33;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #333;
+  color: #fff;
+}
+
+.w, .s, .p {
+  display:inline-block;
   border-radius: 8px;
-  width: 3px;
-  padding: .4em;
+  border: 3px;
+  text-decoration: none;
+  padding: .4em .75em .3em;
+}
+
+.g {
+  display:inline-block;
+  border-radius: 8px;
+  border: 3px solid #333;
+  text-decoration: none;
+  padding: .4em .75em .3em;
 }
