@@ -1,14 +1,27 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 sans-serif;
+  text-align: center;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+.btn-primary {
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 8px;
+  width: 3px;
+  padding: .4em;
+  font-size: 1.125rem;
+}
 
-div {
-  padding: .5rem;
-  text-align: center;
-  vertical-align: middle;
+.btn-subtle small {
+  text-decoration: none;
+  background-color: #ccc;
+  color: #fff;
+  border-radius: 8px;
+  width: 3px;
+  padding: .4em;
 }
