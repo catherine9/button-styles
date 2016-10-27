@@ -19,7 +19,7 @@ div {
   display: inline-block;
   border: 3px solid #333;
   padding: .4em .75em .3em;
-    border-radius: 8px;
+  border-radius: 8px;
 }
 
 .btn:hover {
