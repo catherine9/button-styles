@@ -23,7 +23,7 @@ div {
 .btn:hover {
   text-decoration: none;
   border-radius: 8px;
-  color: #f33;
+  color: #333;
   background-color: #000;
 }
 
