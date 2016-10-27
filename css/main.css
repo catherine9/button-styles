@@ -9,7 +9,7 @@ html {
 }
 
 div {
-  padding: .3em;
+  padding: .5rem;
   text-align: center;
 }
 
@@ -29,12 +29,10 @@ div {
 
 .btn-small {
   font-size: .875rem;
-  padding: .4em, .75em, .3em;
 }
 
 .btn-big {
   font-size: 1.125rem;
-  padding: .4em, .75em, .3em;
 }
 
 .btn-subtle {
@@ -80,8 +78,10 @@ div {
 
 .btn-ghost:hover {
   background-color: #fff;
+  color: #000;
 }
 
 .btn-warning:hover {
   background-color: #933;
+  color: #000;
 }
